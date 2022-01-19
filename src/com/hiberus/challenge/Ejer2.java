@@ -1,5 +1,10 @@
 package com.hiberus.challenge;
 
+/**
+ * 
+ * Respuesta: A
+ *
+ */
 public class Ejer2 {
 	public static void DoPrint(Base2 o) {
 		o.Print();
@@ -26,3 +31,10 @@ class Derived2 extends Base2 {
 		System.out.println("Derived");
 	}
 }
+
+/**
+ * Trace: 
+ * Base 
+ * Derived 
+ * Derived
+ */

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Ejer9 {
 	public static void main(String args[]) {
-		System.out.println(createEmployeeList().stream().map(Employee::getName).collect(Collectors.joining(", ")));
+		System.out.println(createEmployeeList().stream().map(e -> e.name).collect(Collectors.joining(", ")));
 	}
 
 	public static List<Employee> createEmployeeList() {

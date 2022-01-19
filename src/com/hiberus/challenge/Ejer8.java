@@ -1,5 +1,10 @@
 package com.hiberus.challenge;
 
+/**
+ * 
+ * Respuesta: A
+ *
+ */
 public class Ejer8 {
 	public static void swap(Integer i, Integer j) {
 		Integer temp = new Integer(i);
@@ -14,3 +19,9 @@ public class Ejer8 {
 		System.out.println("i = " + i + ", j = " + j);
 	}
 }
+
+/**
+ * Trace :  
+ * i = 10, j = 20
+ * 
+ */

@@ -1,5 +1,10 @@
 package com.hiberus.challenge;
 
+/**
+ * 
+ * Respuesta: A 
+ * Error de compilación, se debería declarar antes del catch (Exception e)
+ */
 public class Ejer6 {
 	public static void main(String[] args) {
 		try {
@@ -9,8 +14,9 @@ public class Ejer6 {
 			}
 		} catch (Exception e) {
 			System.out.println("error = " + e);
-		} catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println("ArrayIndexOutOfBoundsException");
 		}
+//		catch (ArrayIndexOutOfBoundsException e) {
+//			System.out.println("ArrayIndexOutOfBoundsException");
+//		}
 	}
 }

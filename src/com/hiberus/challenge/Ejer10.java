@@ -1,5 +1,11 @@
 package com.hiberus.challenge;
-
+/**
+ * 
+ * No ha sido necesario utilizar ninguna estructura de datos ya que se perdía el sentido de recuperar el siguiente elemento mayor para el array
+ * 
+ * La complejidad temporal vendría dada por los dos bucles for en los que se recorre en el primero todo el array y en el segundo todo el array -1 siendo O(2n-1)
+ *
+ */
 public class Ejer10 {
 	public static void main(String args[]) {
 		int numbers[] = { 4, 5, 2, 25 };

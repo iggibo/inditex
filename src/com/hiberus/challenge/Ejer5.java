@@ -1,5 +1,10 @@
 package com.hiberus.challenge;
 
+/**
+ * 
+ * Respuesta: A
+ *
+ */
 public class Ejer5 {
 	public static void main(String[] args) {
 		Complex c1 = new Complex(10, 15);
@@ -27,3 +32,9 @@ final class Complex {
 		return "(" + re + " + " + im + "i)";
 	}
 }
+
+/**
+ * Trace:
+ * Copy constructor called
+ * (10.0 + 15.0i)
+ */
